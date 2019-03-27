@@ -1,0 +1,367 @@
+﻿abort 中断、中止  英:[ə'bɔːt]美:[ə'bɔrt]
+
+accept 接受  英:[əkˈsept]美:[əkˈsɛpt]
+
+address 地址  英:[ə'dres]美:[əˈdrɛs;(for n)ˈædres; ædrɛs]
+
+align 排列  英:[ə'laɪn]美:[ə'laɪn]
+
+animation 动画  英:[ænɪ'meɪʃ(ə)n]美:[,ænɪ'meʃən]
+
+application 应用  英:[ˌæplɪ'keɪʃ(ə)n]美:[ˌæpləˈkeʃən]
+
+area 区域  英:['eərɪə]美:[ˈeriə]
+
+Array 数组  英:[ə'reɪ]美:[ə're]
+
+async 异步  英:[əˈsɪŋk]美:[æˈsɪŋk]
+
+asynchronously 异步  :查不到音标
+
+attributes 属性  音标:['ætrə,bjʊt]
+
+background 背景  英:['bækgraʊnd]美:['bækɡraʊnd]
+
+base 基础  英:[beɪs]美:[bes]
+
+blockquote 标记长的引用  :查不到音标
+
+blur 使模糊  英:[blɜː]美:[blɝ]
+
+body 身体  英:['bɒdɪ]美:['bɑdi]
+
+bold 黑体的、更粗的  英:[bəʊld]美:[bold]
+
+Boolean 布尔型  音标:['bʊlɪən]
+
+border 边框  英:['bɔːdə]美:['bɔrdɚ]
+
+Bottom 底部  英:['bɒtəm]美:['bɑtəm]
+
+button 按钮  英:[ˈbʌtn]美:['bʌtn]
+
+canvas 帆布  英:['kænvəs]美:['kænvəs]
+
+case 例子  英:[keɪs]美:[kes]
+
+catch 捕捉  英:[kætʃ]美:[kætʃ]
+
+charset 字符集  :查不到音标
+
+children 孩子  英:['tʃɪldrən]美:['tʃɪldrən]
+
+classname 类名  :查不到音标
+
+clear 清除  英:[klɪə]美:[klɪr]
+
+clickable 可点击  :查不到音标
+
+client 委托人  英:['klaɪənt]美:['klaɪənt]
+
+Collapse 合并、关闭  英:[kə'læps]美:[kə'læps]
+
+color 颜色  英:['kʌlə(r)]美:['kʌlɚ]
+
+column 行  英:['kɒləm]美:['kɑləm]
+
+comment 评论、意见  英:['kɒment]美:['kɑmɛnt]
+
+concat 连接  :查不到音标
+
+console 控制台  英:[kən'səʊl]美:['kɑnsol]
+
+container 容器  英:[kən'teɪnə]美:[kən'tenɚ]
+
+content 内容  英:[kən'tent]美:['kɑntɛnt]
+
+continue 继续  英:[kən'tɪnjuː]美:[kən'tɪnju]
+
+cookie 本地存储  英:['kʊkɪ]美:['kʊki]
+
+coordinate 坐标  英:[kəʊ'ɔ:dɪneɪt]美:[ko'ɔrdɪnet]
+
+count 记数、数  英:[kaʊnt]美:[kaʊnt]
+
+cursor 光标  英:['kɜːsə]美:['kɝsɚ]
+
+data 数据  英:['deɪtə]美:['detə]
+
+Date 日期  英:[deɪt]美:[det]
+
+Decoration 装饰、修饰  英:[dekə'reɪʃ(ə)n]美:[,dɛkə'reʃən]
+
+default 系统默认值  英:[dɪ'fɔːlt; 'diːfɔːlt]美:[dɪ'fɔlt]
+
+delete 删除  英:[dɪ'liːt]美:[dɪ'lit]
+
+detail 详述  英:['diːteɪl]美:[dɪˈtel]
+
+direction 方向  英:[dɪˈrekʃn, daɪ-;]美:[dəˈrɛkʃən; (also) daɪˈrɛkʃən]
+
+DOCTYPE 文档类型  :查不到音标
+
+download 下载  英:[daʊn'ləʊd]美:[,daʊn'lod]
+
+draggable 可拖动的  :查不到音标
+
+drop-down 下拉列表  :查不到音标
+
+element 元素  英:['elɪm(ə)nt]美:['ɛləmənt]
+
+enable 使能够  英:[ɪn'eɪb(ə)l; en-]美:[ɪ'nebl]
+
+error 错误  英:['erə]美:['ɛrɚ]
+
+event 事件  英:[ɪ'vent]美:[ɪ'vɛnt]
+
+external 外部  英:[ɪk'stɜːn(ə)l; ek-]美:[ekˈstərnəl; ɪkˈstərnəl]
+
+fetch 取  英:[fetʃ]美:[fɛtʃ]
+
+filter 过滤器  英:['fɪltə]美:['fɪltɚ]
+
+flex 弹性  英:[fleks]美:[flɛks]
+
+float 浮点  英:[fləʊt]美:[flot]
+
+flow 流动  英:[fləʊ]美:[flo]
+
+focus 焦点  英:['fəʊkəs]美:['fokəs]
+
+font 字体  英:[fɒnt]美:[fɑnt]
+
+footer 页脚  英:['fʊtə]美:['fʊtɚ]
+
+form 表单  英:[fɔːm]美:[fɔrm]
+
+frame 框  英:[freɪm]美:[frem]
+
+geolocation 地理定位  :查不到音标
+
+Global 全球的  英:['gləʊb(ə)l]美:['ɡlobl]
+
+graphics 图形、图表算法  英:['græfɪks]美:['græfɪks]
+
+grow 生长、发育  英:[grəʊ]美:[ɡro]
+
+head 头  英:[hed]美:[hɛd]
+
+height 高度  英:[haɪt]美:[haɪt]
+
+hidden 隐藏  英:['hɪdn]美:['hɪdn]
+
+highlight 强调  英:['haɪlaɪt]美:['haɪlaɪt]
+
+history 历史  英:['hɪst(ə)rɪ]美:[ˈhɪstrɪ]
+
+href 连接  :查不到音标
+
+hyperlink 超链接  英:['haɪpəlɪŋk]美:['haɪpɚlɪŋk]
+
+icon 图标  英:['aɪkɒn; -k(ə)n]美:['aɪkɑn]
+
+image 图片  英:['ɪmɪdʒ]美:['ɪmɪdʒ]
+
+important 重要的  英:[ɪm'pɔːt(ə)nt]美:[ɪm'pɔrtnt]
+
+Indent 缩进  英:[ɪn'dent]美:[ɪn'dɛnt]
+
+index 指标、指数  英:['ɪndeks]美:['ɪndɛks]
+
+input 输入  英:['ɪnpʊt]美:['ɪn'pʊt]
+
+instance 例子  英:['ɪnst(ə)ns]美:['ɪnstəns]
+
+invalid 无效的  英:[ˈɪnvəlɪd；ɪnˈvælɪd]美:[ˈɪnvəlɪd；ɪnˈvælɪd]
+
+JavaScript Script语言  音标:['dʒɑvə,skrɪpt]
+
+join 连接、结合  英:[dʒɒɪn]美:[dʒɔɪn]
+
+JSON json符号对象  :查不到音标
+
+justify 排列整齐  英:['dʒʌstɪfaɪ]美:['dʒʌstə'fai]
+
+label 标签  英:['leɪb(ə)l]美:[ˈlebəl]
+
+language 语言  英:['læŋgwɪdʒ]美:['læŋɡwɪdʒ]
+
+loop 重复  英:[luːp]美:[lup]
+
+lowercase 小写字母  英:[,ləʊə'keɪs]美:['loɚ,kes]
+
+machine 机器装置  英:[mə'ʃiːn]美:[mə'ʃin]
+
+margin 外边框  英:['mɑːdʒɪn]美:['mɑrdʒən]
+
+mark 标记  音标:[mɑːk]
+
+Math 计算算数  英:[mæθ]美:[mæθ]
+
+max 最大  音标:[mæks]
+
+measurement 测量  英:['meʒəm(ə)nt]美:['mɛʒɚmənt]
+
+method 方法  英:['meθəd]美:['mɛθəd]
+
+multiline 多线  :查不到音标
+
+multiple 倍数  英:['mʌltɪpl]美:['mʌltəpl]
+
+mute 静音  英:[mjuːt]美:[mjut]
+
+navigation 导航栏  英:[nævɪ'geɪʃ(ə)n]美:['nævə'geʃən]
+
+null 空  英:[nʌl]美:[nʌl]
+
+Number 数字  英:['nʌmbə]美:['nʌmbɚ]
+
+opacity 透明值  英:[ə(ʊ)'pæsɪtɪ]美:[o'pæsəti]
+
+Operators 操作者  英:[ˈɒpəreɪtə(r)s]美:['ɑpə,retɚs]
+
+order 命令  英:['ɔːdə]美:['ɔrdɚ]
+
+Orientation 方向  英:[,ɔːrɪən'teɪʃ(ə)n; ,ɒr-]美:[orɪɛn'teʃən]
+
+Origin 起源  英:['ɒrɪdʒɪn]美:['ɔrɪdʒɪn]
+
+outline 轮廓  英:['aʊtlaɪn]美:['aʊtlaɪn]
+
+overflow 溢出  英:[əʊvə'fləʊ]美:[,ovɚ'flo]
+
+Overrides 复写，重写  :查不到音标
+
+padding 内边距  英:['pædɪŋ]美:['pædɪŋ]
+
+parameter 参数  英:[pə'ræmɪtə]美:[pə'ræmɪtɚ]
+
+paste 黏贴  英:[peɪst]美:[pest]
+
+pattern 模式  英:['pæt(ə)n]美:[ˈpætərn]
+
+pause 暂停  英:[pɔːz]美:[pɔz]
+
+perspective 立体效果  英:[pə'spektɪv]美:[pɚ'spɛktɪv]
+
+placeholder 占位符  音标:['plesholdɚ]
+
+position 位置  英:[pəˈzɪʃən]美:[pə'zɪʃən]
+
+preferences 参数选择  英:['pref(ə)r(ə)nsɪz]美:['prɛfrənsɪz]
+
+private 私有的  英:[ˈpraɪvɪt]美:[ˈpraɪvɪt]
+
+promise 承诺、保证  英:['prɒmɪs]美:['prɑmɪs]
+
+protocol 草案  英:['prəʊtəkɒl]美:['protə'kɔl]
+
+readonly 只读的  :查不到音标
+
+RegExp 正则表达式  :查不到音标
+
+relative 相对定位  英:['relətɪv]美:['rɛlətɪv]
+
+remove 移动  英:[rɪ'muːv]美:[rɪ'muv]
+
+repeat 重复  英:[rɪ'piːt]美:[rɪ'pit]
+
+Represent 构成  英:[reprɪ'zent]美:[,rɛprɪ'zɛnt]
+
+resize 调整大小  英:[riː'saɪz]美:[,ri'saɪz]
+
+resources 资源  英:[rɪˈsɔːsiz]美:[risɔrsiz]
+
+resume 简历  音标:[rɪˈzjuːm; ˈrɛzjʊmeɪ]
+
+return 返回  英:[rɪ'tɜːn]美:[rɪ'tɝn]
+
+sample 样品  英:['sɑːmp(ə)l]美:['sæmpl]
+
+sandbox 沙盘  英:['sæn(d)bɒks]美:['sændbɑks]
+
+scope 范围  英:[skəʊp]美:[skop]
+
+screen 屏幕  英:[skriːn]美:[skrin]
+
+search 搜索  英:[sɜːtʃ]美:[sɝtʃ]
+
+section 部分  英:['sekʃ(ə)n]美:['sɛkʃən]
+
+Shadow 阴影  英:['ʃædəʊ]美:['ʃædo]
+
+Shrink 收缩  英:[ʃrɪŋk]美:[ʃrɪŋk]
+
+size 大小  英:[saɪz]美:[saɪz]
+
+sound 声音  英:[saʊnd]美:[saʊnd]
+
+source 来源  英:[sɔːs]美:[sɔrs]
+
+span 行内元素标签  英:[spæn]美:[spæn]
+
+Specifies 指定  音标:[spesifais]
+
+src 来源  :查不到音标
+
+Statements 声明  音标:['stetmənt]
+
+step 步骤  英:[step]美:[stɛp]
+
+Storage 仓库  英:['stɔːrɪdʒ]美:['stɔrɪdʒ]
+
+String 字符串  英:[strɪŋ]美:[strɪŋ]
+
+strong 强调文本标签  英:[strɒŋ]美:[strɔŋ]
+
+style 样式  英:[staɪl]美:[staɪl]
+
+switch 分支  英:[swɪtʃ]美:[swɪtʃ]
+
+table 列表  英:['teɪb(ə)l]美:['tebl]
+
+tag 标签  英:[tæg]美:[tæɡ]
+
+target 目标  英:['tɑːgɪt]美:['tɑrɡɪt]
+
+template 模板  英:['templeɪt; -plɪt]美:['tɛmplet]
+
+throw 抛  英:[θrəʊ]美:[θro]
+
+title 标题  英:['taɪt(ə)l]美:['taɪtl]
+
+Transfer 转移  英:[træns'fɜː; trɑːns-; -nz-]美:[træns'fɝ]
+
+translate 翻译  英:[træns'leɪt; trɑːns-; -nz-]美:[træns'let]
+
+type 类型  英:[taɪp]美:[taɪp]
+
+undefined 不明确的  英:[ʌndɪ'faɪnd]美:[,ʌndɪ'faɪnd]
+
+unload 退出  英:[ʌn'ləʊd]美:['ʌn'lod]
+
+uppercase 大写字母  英:['ʌpə'keɪs]美:['ʌpɚ,kes]
+
+validate 生效  英:['vælɪdeɪt]美:['vælɪdet]
+
+value 值  英:['væljuː]美:['vælju]
+
+variable 可变的  英:['veərɪəb(ə)l]美:['vɛrɪəbl]
+
+versions 版本  英:[ˈvɜːʃəns -ʒəns]美:['vɝʒəns]
+
+Visibility 能见度  英:[vɪzɪ'bɪlɪtɪ]美:['vɪzə'bɪləti]
+
+visible 可见的  英:[ˈvɪzəbl]美:['vɪzəbl]
+
+wait 等待  英:[weɪt]美:[wet]
+
+Website 网站  音标:['websaɪt]
+
+while 当..时候  英:[waɪl]美:[hwaɪl]
+
+width 宽度  英:[wɪtθ; wɪdθ]美:[wɪdθ]
+
+wrap 包装  英:[ræp]美:[ræp]
+
+write 书写  英:[raɪt]美:[raɪt]
