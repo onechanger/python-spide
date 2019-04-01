@@ -1,5 +1,6 @@
 from urllib import request
 from bs4 import BeautifulSoup
+import time
 word_str ='''abort
 accept
 address
@@ -377,29 +378,87 @@ word_list = word_str.split()
 zh_list = zh_str.split()
 # print(len(word_list))
 # print(len(zh_list))
-flag = 0
 # for i in zh_list:
 #       print(i + word_list[flag])
 #       flag += 1
-# temp = open('tt.txt','wb')
+temp = open('tt.txt','wb')
 enstr = ''
-for i in word_list:
-      url = r'http://dict.youdao.com/search?q='+ i +'&keyfrom=new-fanyi.smartResult'#r'http://dict.youdao.com/search?q=look&keyfrom=new-fanyi.smartResult'
-      response = request.urlopen(url) # <http.client.HTTPResponse object at 0x00000000048BC908> HTTPResponse类型
-      page = response.read()
-      page = page.decode('utf-8')
-      soup = BeautifulSoup(page)
-      print(flag)
-      # try:
-      ele = soup.select("span .phonetic")
-      if len(ele) > 1 :
-            enstr +=(i + " "+  zh_list[flag] + "  " + "英:"+ ele[0].text + "美:"+ele[1].text + '\n')
-      elif len(ele) == 1:
-            enstr +=(i + " "+  zh_list[flag] + "  " + "音标:"+ ele[0].text + '\n')
-      else: 
-            enstr +=(i + " "+  zh_list[flag] + "  " + ":查不到音标" + '\n')
-      flag += 1
-      # except:
-      #       print('error:'+ i)
-# # temp.close()
-print(enstr)
+# for i in word_list:
+#       url = r'http://dict.youdao.com/search?q='+ i +'&keyfrom=new-fanyi.smartResult'#r'http://dict.youdao.com/search?q=look&keyfrom=new-fanyi.smartResult'
+#       response = request.urlopen(url) # <http.client.HTTPResponse object at 0x00000000048BC908> HTTPResponse类型
+#       page = response.read()
+#       page = page.decode('utf-8')
+#       soup = BeautifulSoup(page)
+#       print(flag)
+#       # try:
+#       ele = soup.select("span .phonetic")
+
+
+#       if len(ele) > 1 :
+#             enstr +=(i + " "+  zh_list[flag] + "  " + "美:"+ele[1].text + '\n'  )
+#       elif len(ele) == 1:
+#             enstr +=(i + " "+  zh_list[flag] + "  " + "音标:"+ ele[0].text + '\n')
+#       else: 
+#             enstr +=(i + " "+  zh_list[flag] + "  " + ":查不到音标" + '\n')
+#       flag += 1
+#       # except:
+#       #       print('error:'+ i)
+
+# url_match = "#pb_next"
+content_match = "span .phonetic"
+html_ecode = 'utf-8'
+flag = 1
+text_name = 'phonofraph.txt'
+novel = open(text_name,'ab')
+url =''
+def PhonofraphCrawling():
+      global flag,url
+      i = 0
+      times = len(word_list)
+      while i < times:
+            url = r'http://dict.youdao.com/search?q='+ word_list[i] +'&keyfrom=new-fanyi.smartResult'
+            try:
+                  response = request.urlopen(url,timeout=5) 
+                  page = response.read()
+            except:
+                  if flag == 4:
+                        print('该单词无法爬取:'+ url)
+                        flag = 1
+                        break
+                  else:
+                        time.sleep(1)
+                        flag += 1
+                        continue
+            page = page.decode(html_ecode)
+            soup = BeautifulSoup(page,features="html.parser")
+            # ele_src = soup.select(url_match)
+            ele_content = soup.select(content_match)
+            if len(ele_content) > 1 :
+                  str_temp = (word_list[i] + "  "+  zh_list[i] + "  " + "美: "+ele_content[1].text + '\n' + "\n" )
+            elif len(ele_content) == 1:
+                  str_temp = (word_list[i] + "  "+  zh_list[i] + "  " + "音标: "+ ele_content[0].text + '\n' + "\n")
+            else: 
+                  str_temp = (word_list[i] + "  "+  zh_list[i] + "  " + " :查不到音标" + '\n' + "\n")
+
+            novel.write(str_temp.encode('utf-8'))
+            print("爬取第 {} 个单词,爬取次数 {} 次".format(i+1,flag))
+            i += 1
+            flag = 1
+
+while True:
+      option = input('Please enter the operation you want to enter.\nC : Crawling \nP : Print now url\nE : Empty the text\nQ : Quit\n ')
+      if option == "C" or option == "c":
+            PhonofraphCrawling()
+      if option == "P" or option == "p":
+            print(url)
+      if option == "Q" or option == "q":
+            novel.close()
+            print("程序已结束请把初始url改为:",url)
+            break
+      if option == "E" or option == "e":
+            novel.close()
+            novel = open(text_name,'w')
+            novel.write('')
+            novel.close()
+            novel = open(text_name,'ab')
+            print("{}文本内容已清空".format(text_name))
