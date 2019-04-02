@@ -21,7 +21,7 @@ def NovelCrawling():
 			page = response.read()
 		except:
 			if flag == 4:
-				print('该章节无法爬取:'+ url,"上一个url:"+ previous_url)
+				print('该章节无法爬取: '+ url,"上一个章节: "+ previous_url,"上上个章节: " + temp_url)
 				flag = 1
 				break
 			else:
@@ -32,12 +32,14 @@ def NovelCrawling():
 		soup = BeautifulSoup(page,features="html.parser")
 		ele_src = soup.select(url_match)
 		ele_content = soup.select(content_match)
+		if i > 1:
+			temp_url = previous_url
 		previous_url = url
 		try:
 			url = url_origin + ele_src[0]['href']
 			text = ele_content[0].text
 		except:
-			print("该章节无法爬取内容或url请检测:",url)
+			print("该章节无法爬取内容或url请检测: ",url,"上一个章节: " + previous_url,"上上个章节: " + temp_url)
 		novel.write(text.encode('utf-8'))
 		print("爬取第 {} 个章节,爬取次数 {} 次".format(i,flag))
 		i += 1
